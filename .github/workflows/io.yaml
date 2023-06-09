@@ -15,4 +15,4 @@ jobs:
           print(f"VAL=true", file=f)
     - name: print value
 #       if: steps.get-magic-value.outcome == 'success' && steps.get-magic-value.command.outputs.VAL == 'true'
-      run: echo "the value is ${{ steps.set-var.outputs.VAL }}
+      run: echo "the value is ${{ steps.set-var.outputs.VAL }}"
